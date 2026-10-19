@@ -1,0 +1,170 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    min-height: 100vh;
+    background: linear-gradient(
+        70deg,
+        rgb(2, 252, 2),
+        rgb(0, 217, 255),
+        blue
+    );
+}
+.name {
+    display: flex;
+    gap: 15px;
+}
+.name input {
+     flex-direction: column;
+     display: inherit;
+     box-shadow: 4px 4px 15px rgb(21, 75, 4);
+     border: none;
+     border-radius: 15px;
+     padding: 10px;
+     background: linear-gradient(yellow,red);
+     transition: 0.3s ease;
+    }
+.name label {
+    font-family: cursive;
+    color: white;
+    filter: drop-shadow(0 0 3px black);
+    display: block;
+}
+.Email input {
+   flex-direction: column;
+   display: inherit;
+   border: none;
+   border-radius: 15px;
+   padding: 10px;
+   box-shadow: 3px 3px 15px;
+   background: linear-gradient(yellow, red);
+   transition: 0.3s ease;
+}
+.Email label {
+    font-family: cursive;
+    color: white;
+    filter: drop-shadow(0 0 3px black);
+    display: block;
+}
+.date input {
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 15px;
+    background: linear-gradient(yellow, red);
+    transition: 0.3s ease;
+}
+.date label {
+    color: white;
+    font-family: cursive;
+    filter: drop-shadow( 0 0 3px black);
+}
+.gender select {
+   border: none;
+   padding: 5px;
+   border-radius: 15px;
+   box-shadow: 3px 3px 15px;
+   background: linear-gradient(
+       yellow,
+       red
+   );
+   transition: 0.3s ease;
+}
+.gender label {
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+    filter: drop-shadow( 0 0 3px black);
+}
+.tele input {
+    border: none;
+   padding: 5px;
+   border-radius: 15px;
+   box-shadow: 3px 3px 15px;
+   background: linear-gradient(
+       yellow,
+       red
+   );
+   transition: 0.3s ease;
+}
+.tele label {
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+    filter: drop-shadow( 0 0 3px black);
+}
+::placeholder {
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+    font-weight: bold;
+}
+input[type="date"],
+select {
+    -webkit-text-fill-color: white;
+    font-weight: bold;
+}
+.link img {
+    border-radius: 50%;
+    filter: drop-shadow(2px 2px 6px);
+}
+.btn button {
+    background: linear-gradient(
+        red,
+        rgb(255, 0, 191)
+    );
+    border: none;
+    border-radius: 10px;
+    padding: 7px 100px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 2px 2px 10px black;
+    transition: 0.3s ease;
+}
+.btn button:hover {
+    transform: scale(1.1);
+    background: linear-gradient(
+        rgb(255, 0, 191),
+        red
+    );
+    box-shadow: 0 0 15px white;
+}
+.name input:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px white;
+    background: linear-gradient(
+        red,
+        yellow
+    );
+}
+.Email input:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px white;
+    background: linear-gradient(
+        red,
+        yellow
+    );
+}
+.gender select:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px white;
+    background: linear-gradient(
+        red,
+        yellow
+    );
+}
+.date input:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px white;
+    background: linear-gradient(
+        red,
+        yellow
+    );
+}
+.tele input:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px white;
+    background: linear-gradient(
+        red,
+        yellow
+    );
+}
